@@ -11,12 +11,12 @@ public class Main {
         myList.insert(2, 5);
         myList.append(3);
         //System.out.println(myList.remove(5).value);
-        myList.reverse();
+        myList.removeDuplicates();
         myList.summary();
         System.out.println("");
         myList.printItems();
         System.out.println("");
-        System.out.println(myList.findMiddleNode().value);
+        //System.out.println(myList.findMiddleNode().value);
         
     }
 }
