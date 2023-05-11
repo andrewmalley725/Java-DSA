@@ -6,6 +6,7 @@ public class Main {
         myList.append(1);
         myList.append(2);
         myList.prepend(-1);
+        System.out.println(myList.get(2).value);
         myList.summary();
     }
 }
