@@ -81,4 +81,10 @@ public class HashTable {
         }
         return allKeys;
     }
+
+    public void printKeys() {
+        for (String key : this.keys()) {
+            System.out.println(key);
+        }
+    }
 }

@@ -6,7 +6,7 @@ public class Main {
         myHash.set("level", 9000);
         myHash.set("points", 27);
         myHash.set("songs", 100);
-        System.out.println(myHash.keys());
+        myHash.printKeys();
         myHash.printTable();
     }
 
