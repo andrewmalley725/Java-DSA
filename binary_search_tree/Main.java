@@ -9,6 +9,6 @@ public class Main {
         bst.insert(2);
         bst.insert(16);
         System.out.println(bst.root.right.right.value + "\n");
-        System.out.println(bst.contains(10));
+        System.out.println(bst.rContains(11));
     }
 }
