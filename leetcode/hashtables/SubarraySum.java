@@ -44,7 +44,7 @@ public class SubarraySum {
 
         int[] nums4 = {};
         int target4 = 0;
-        int[] result4 = subarraySum(nums4, target4);
+        subarraySum(nums4, target4);
         System.out.println("[]");
         
         /*
