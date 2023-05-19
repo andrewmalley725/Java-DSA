@@ -8,7 +8,8 @@ public class Main {
         bst.insert(14);
         bst.insert(2);
         bst.insert(16);
-        System.out.println(bst.root.right.right.value + "\n");
-        System.out.println(bst.rContains(11));
+        System.out.println(bst.DFSPreOrder());
+        System.out.println(bst.DFSPostOrder());
+        System.out.println(bst.DFSInOrder());
     }
 }
